@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/burgerking",
+  "description": "Show coupons of burger king Russia",
+  "version": "1.0.0",
+  "type": "project",
+  "keywords": [
+    "coupons",
+    "burgerking"
+  ],
+  "time": "2022-01-24",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evgeny Kovalev",
+      "email": "kovalev.e@effective-group.ru",
+      "homepage": "https://github.com/tdutybqs",
+      "role": "developer"
+    }
+  ],
+  "support": {
+    "email": "kovalev.e@effective-group.ru"
+  },
+  "require": {
+  }
+}
