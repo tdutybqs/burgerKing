@@ -16,7 +16,7 @@ function getCoupons(): void
             JSON_THROW_ON_ERROR
         )['response']['dishes'];
 
-    echo "Найдено " . count($burgerKingJson) . " промокодов\n";
+    echo "Найдено " . count($burgerKingJson) . " купонов\n";
     foreach ($burgerKingJson as $value) {
         if ("" !== $value['code']) {
             echo $str = $value['code'] . " " . $value['name'] . " за " . (int)$value['price'] / 100 . "\n";
